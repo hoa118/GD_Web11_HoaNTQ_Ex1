@@ -1,0 +1,17 @@
+
+.main__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(17, 78, 32); */
+    height: 64px;
+    margin-left:12px;   
+}
+.main__toolbar--left{
+    display: flex;
+}
+.main__toolbar--right{
+    /* background-color: rgb(122, 99, 226); */
+    display: flex;
+    margin-right:12px;
+}

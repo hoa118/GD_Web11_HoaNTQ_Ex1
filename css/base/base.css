@@ -1,0 +1,22 @@
+@import url(../base/reset.css);
+@import url(../base/variables.css);
+
+@import url(../layout/sidebar.css);
+@import url(../layout/header.css);
+@import url(../layout/toolbar.css);
+@import url(../layout/main.css);
+@import url(../layout/main-content.css);
+@import url(../layout/paging.css);
+
+@import url(../page/button.css);
+
+.container{
+    display: grid;
+    grid-template-columns: 220px auto;
+    grid-template-rows: 48px auto;
+    /* 56px auto */
+    width: 100%;
+    height:100vh;
+}
+
+

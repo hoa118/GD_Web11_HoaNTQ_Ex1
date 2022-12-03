@@ -1,0 +1,33 @@
+.btn {
+    height: 32px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    border: 1px solid #CECECE;
+    cursor: pointer;
+    width: 96px;
+    color: #3d3f4e;
+    margin-left:8px;
+
+}
+.btn-add{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid transparent;
+}
+
+.btn-export {
+    background-color: #FFFFFF ;
+}
+
+.btn-export:hover{
+    background-color: #EAECEF;
+}
+
+.btn-more {
+    background-color: #F8F8F8;
+    color: #3D3F4E;
+    width: 36px;
+    display: flex;
+    align-items: center;
+
+}

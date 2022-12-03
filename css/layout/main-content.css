@@ -1,0 +1,27 @@
+.main__content {
+    /* background-color: rgb(25, 126, 167); */
+    flex-basis: 500px;
+    display: flex;
+    overflow-y: scroll;
+    position: relative;
+}
+
+table {
+    /* background-color: yellowgreen; */
+    width: 100%;
+    margin:12px;
+    border-collapse: collapse;
+}
+
+
+
+th,td {
+    height:40px;
+    border: 1px solid var(--headingTable);
+}
+th{
+    background-color: var(--headingTable);
+    color: black;
+    height:64px;    
+ 
+}
