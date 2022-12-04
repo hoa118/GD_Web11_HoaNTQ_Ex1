@@ -14,14 +14,25 @@ table {
 }
 
 
-
 th,td {
     height:40px;
-    border: 1px solid var(--headingTable);
+    border: 1px solid transparent;
 }
 th{
-    background-color: var(--headingTable);
+    background-color: #F5F6FA;
     color: black;
-    height:64px;    
- 
+    height:64px;   
+    position: sticky;
+    top:0; 
+    font-weight: 500;
+} 
+td{
+    text-align: center;
+}
+
+.text-align--left {
+    text-align: left;
+}
+.name {
+    color: var(--main-color);
 }

@@ -6,9 +6,15 @@
     /* background-color: rgb(17, 78, 32); */
     height: 64px;
     margin-left:12px;   
+
 }
 .main__toolbar--left{
     display: flex;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.main__toolbar--left input {
+    width: 300px;
 }
 .main__toolbar--right{
     /* background-color: rgb(122, 99, 226); */

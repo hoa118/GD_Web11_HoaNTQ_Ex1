@@ -18,15 +18,20 @@
     justify-content: flex-start;
     column-gap: 16px;
 }
+
 .main__header--right{
     display: flex;
     /* background-color: #d37b7b; */
     margin-left:12px;
     align-items: center;
     justify-content: flex-start;
-    column-gap: 8px;
+    column-gap: 16px;
     }
 
+.main__header--right .admin {
+    display: flex;
+    align-items: center;
+}
 .main__header--right .avatar {
     height: 40px;
     width: 40px;
