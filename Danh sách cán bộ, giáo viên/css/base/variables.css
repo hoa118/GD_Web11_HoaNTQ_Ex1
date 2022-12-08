@@ -1,0 +1,13 @@
+:root{
+    --main-color:#03AE66;
+    --active-sidebar: #0dd469;
+    --focusline: #CCE8FF;
+    --sidebar: #24344B;
+    --background: #EAECEF;
+    --gradient: linear-gradient(to right, #03C573 , #009253);
+    --headerpanel: #F5F6FA;
+    --linepanel: #D5D8E6;
+    --link: #0997EB;
+    --hovericon: #FA3939;
+    --headingTable:#E0E0E0;
+}
